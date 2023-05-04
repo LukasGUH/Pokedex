@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Pokedex</title>
+    </head>
+    <body>
+        <header class="logo_pokedex">
+            <a class="pokebola" href="./index.html">
+                <div class="pokebola-botao"></div>
+            </a>
+            <div>
+                <img src="https://fontmeme.com/permalink/230428/d162188ed57234d0a616363ca00a2baa.png" alt="">
+            </div>
+        </header>
+        <form>
+            <div class="search_pokemon">
+                <label>Digite o ID ou o nome do pokemon</label>
+                <div class="logo_input">
+                    <input class="input" id="name" type="text" placeholder="Exemplo: Pikachu ou 25">
+                    <button class="submit" type="submit" value="Pesquisar"><i class="ri-search-2-line"></i></button>
+                </div>
+            </div>
+        </form>
+      
+        <main class="poke_container" id="pokeContainer"></main>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>
